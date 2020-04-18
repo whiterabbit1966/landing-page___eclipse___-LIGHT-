@@ -1,0 +1,57 @@
+/* Fonts */
+
+/* Gotham pro medium */
+@font-face {
+    font-family: "Gotham Pro Medium";
+    src: url("../fonts/gotham-pro-medium/GothamPro-Medium.eot")
+            format("embedded-opentype"),
+        url("../fonts/gotham-pro-medium/GothamPro-Medium.woff") format("woff"),
+        url("../fonts/gotham-pro-medium/GothamPro-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: wrap;
+}
+
+/* Gotham pro bold */
+@font-face {
+    font-family: "Gotham Pro Bold";
+    src: url("../fonts/gotham-pro-bold/GothamPro-Bold.eot") format("embedded-opentype"),
+        url("../fonts/gotham-pro-bold/GothamPro-Bold.woff") format("woff"),
+        url("../fonts/gotham-pro-bold/GothamPro-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: wrap;
+}
+
+/* Montserrat Regular */
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url("../fonts/montserrat-regular/montserrat.woff2") format("woff2"),
+        url("../fonts/montserrat-regular/montserrat.woff") format("woff"),
+        url("../fonts/montserrat-regular/montserrat.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: wrap;
+}
+
+/* Montserrat Bold */
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url("../fonts/montserrat-bold/montserratbold.woff2") format("woff2"),
+        url("../fonts/montserrat-bold/montserratbold.woff") format("woff"),
+        url("../fonts/montserrat-bold/montserratbold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: wrap;
+}
+
+/* FiraSans Bold */
+@font-face {
+    font-family: "Fira Sans Bold";
+    src: url("../fonts/firasans-bold/Firasansbold.woff2") format("woff2"),
+        url("../fonts/firasans-bold/Firasansbold.woff") format("woff"),
+        url("../fonts/firasans-bold/Firasansbold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: wrap;
+}

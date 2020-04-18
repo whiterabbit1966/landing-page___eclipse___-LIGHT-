@@ -1,0 +1,62 @@
+/* Section latest-design */
+.latest-design {
+    padding-top: 121px;
+
+    background: #f5f7f9;
+}
+
+.container--latest-design {
+    position: relative;
+}
+
+.latest-design__header {
+    text-align: center;
+    width: 667px;
+    margin: 0 auto;
+}
+
+.latest-design__title {
+    font-family: "Gotham Pro Bold", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #333b42;
+}
+
+.latest-design__subtitle {
+    padding-top: 30px;
+
+    font-family: "Gotham Pro Medium", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #74797e;
+}
+
+.latest-design__img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 73px;
+}
+
+.latest-design__arrow-down {
+    position: absolute;
+    right: 0;
+    bottom: -65px;
+    left: 0;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 41px;
+    width: 114px;
+    height: 114px;
+    text-align: center;
+
+    font-size: 33px;
+
+    background: #28c8c6;
+    color: #fff;
+
+    outline: none;
+    border: none;
+
+    border-radius: 50%;
+}

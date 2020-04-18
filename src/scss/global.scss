@@ -1,0 +1,23 @@
+/*=====================================
+Global styles
+=====================================*/
+
+* {
+    max-width: 100%;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 25px;
+
+    max-width: 1230px;
+}

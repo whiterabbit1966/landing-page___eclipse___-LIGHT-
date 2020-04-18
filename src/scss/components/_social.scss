@@ -1,0 +1,39 @@
+/* Section social */
+.social {
+    padding-top: 750px;
+    padding-right: 30px;
+}
+
+.container--social {
+    position: relative;
+}
+
+.social__inner {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.social__link {
+    padding: 11px 17px;
+
+    border-radius: 3px;
+
+    font-family: "Fira Sans Bold", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+
+    background-color: #69b6f2;
+}
+
+.social__link .font-awesome-icon {
+    padding-right: 12px;
+}
+
+.social__link--facebook {
+    margin-left: 6px;
+
+    background-color: #3a579a;
+}

@@ -1,0 +1,57 @@
+@media (max-width: $laptor) {
+    .notebook__device {
+        top: 650px;
+        left: 0;
+    }
+
+    .notebook__arrow-up {
+        bottom: -860px;
+    }
+}
+
+@media (max-width: $mobileL) {
+    .notebook {
+        height: 750px;
+    }
+
+    .container--notebook {
+        padding-top: 180px;
+    }
+
+    .notebook__content {
+        margin-left: 14px;
+    }
+
+    .notebook__logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .notebook__title {
+        font-size: 30px;
+    }
+
+    .notebook__device {
+        transform: translateY(-200px);
+    }
+}
+
+@media (max-width: $mobileM) {
+    .container--notebook {
+        padding-top: 140px;
+    }
+
+    .notebook__device {
+        transform: translateY(-150px);
+    }
+}
+
+@media (max-width: $mobileS) {
+    .container--notebook {
+        padding-top: 140px;
+    }
+
+    .notebook__device {
+        transform: translateY(-100px);
+    }
+}

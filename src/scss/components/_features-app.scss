@@ -1,0 +1,81 @@
+/* Section "Features of app" */
+.features-app {
+    position: relative;
+
+    padding: 161px 0 150px;
+}
+
+.features-app__header {
+    text-align: center;
+    width: 667px;
+    margin: 0 auto;
+}
+
+.features-app__title {
+    font-family: "Gotham Pro Bold", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #333b42;
+}
+
+.features-app__subtitle {
+    padding-top: 30px;
+
+    font-family: "Gotham Pro Medium", sans-serif;
+    font-size: 14px;
+    color: #74797e;
+}
+
+.features-app__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    padding-top: 63px;
+}
+
+.features-app__inner .features-app__item {
+    text-align: center;
+
+    width: 280px;
+}
+
+.features-app__item .item__title {
+    padding: 39px 0 36px;
+
+    font-family: "Gotham Pro Bold", sans-serif;
+    font-weight: 700;
+    color: #333b42;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.features-app__item .item__subtitle {
+    font-family: "Gotham Pro Medium", sans-serif;
+    color: #74797e;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.features-app__arrow-down {
+    position: absolute;
+    right: 0;
+    bottom: -57px;
+    left: 0;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 41px;
+    width: 115.5px;
+    height: 115px;
+    text-align: center;
+
+    background: #fff;
+    color: #d8e0e8;
+
+    font-size: 33px;
+
+    outline: none;
+    border: none;
+
+    border-radius: 50%;
+}

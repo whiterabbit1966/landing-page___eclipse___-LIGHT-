@@ -1,0 +1,161 @@
+/* Section "Our design" */
+.our-design {
+    position: relative;
+    padding: 137px 0 129px;
+    background: #f6f9fa;
+
+    border-top: 1px solid #d8e0e8;
+}
+
+.our-design::before {
+    position: absolute;
+    top: -57px;
+    right: 0;
+    left: 0;
+    z-index: 0;
+    margin: 0 auto;
+
+    display: block;
+    content: "";
+    width: 114px;
+    height: 114px;
+    border-radius: 50%;
+    background: #fff;
+
+    border: 1px solid #d8e0e8;
+}
+
+.our-design__header {
+    text-align: center;
+    width: 903px;
+    margin: 0 auto;
+}
+
+.our-design__title {
+    font-family: "Gotham Pro Bold", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #333b42;
+}
+
+.our-design__subtitle {
+    padding-top: 30px;
+
+    font-family: "Gotham Pro Medium", sans-serif;
+    font-size: 14px;
+    color: #74797e;
+}
+
+.our-design__filter {
+    display: flex;
+    justify-content: space-between;
+
+    width: 513px;
+    margin: 46px auto 0;
+
+    border: 1px solid #28c8c6;
+}
+
+.our-design__btn {
+    font-family: "Gotham Pro Bold", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #28c8c6;
+    background: #f6f9fa;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 23px 29px;
+
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+
+    transition: color 0.5s linear, background 0.5s linear;
+}
+
+.our-design__btn:hover {
+    color: #fff;
+    background: #28c8c6;
+}
+
+.our-design__inner {
+    padding-top: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+/******************************** Design inner for file.js ********************************************/
+.our-design__inner--dev {
+    display: none;
+}
+
+.our-design__inner--business {
+    display: none;
+}
+
+.our-design__inner--arts {
+    display: none;
+}
+/******************************************************************************************/
+
+.our-design__item {
+    text-align: center;
+}
+
+.our-design__item .item__img {
+    display: block;
+}
+
+.our-design__item .item__name {
+    padding-top: 31px;
+
+    font-family: "Montserrat Regular", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333b42;
+}
+
+.our-design__item .item__name .item__name__arrow {
+    position: relative;
+    margin-left: 50px;
+
+    color: #28c8c6;
+
+    cursor: pointer;
+}
+
+.our-design__item .item__name .item__name__arrow:hover::after {
+    position: absolute;
+    top: 0;
+    right: -110px;
+    display: block;
+    padding: 10px 10px;
+    width: 100px;
+
+    content: "Design listing one";
+
+    font-size: 15px;
+
+    color: #fff;
+    background: #28c8c6;
+
+    animation: arrow 0.5s linear;
+}
+
+@keyframes arrow {
+    0% {
+        top: -50px;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}

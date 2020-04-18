@@ -1,0 +1,46 @@
+@media (max-width: $laptor) {
+    .features-app__item--top-one {
+        grid-column: 1/3;
+        margin: 0 auto;
+    }
+
+    .features-app__item--top-two {
+        grid-column: 3/6;
+        margin: 0 auto;
+    }
+
+    .features-app__item--bot-three {
+        grid-column: 1/3;
+        margin: 0 auto;
+        padding-top: 63px;
+    }
+
+    .features-app__item--bot-four {
+        grid-column: 3/6;
+        margin: 0 auto;
+        padding-top: 63px;
+    }
+}
+
+@media (max-width: $mobileL) {
+    .features-app__inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .features-app__item--top-two {
+        padding-top: 63px;
+    }
+}
+
+@media (max-width: $mobileL) {
+    .features-app__title {
+        font-size: 29px;
+    }
+}
+
+@media (max-width: $mobileS) {
+    .features-app__title {
+        font-size: 24px;
+    }
+}

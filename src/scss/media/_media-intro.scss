@@ -1,0 +1,98 @@
+@media (max-width: $tabletL) and (orientation: landscape) {
+    .intro__inner {
+        padding-top: 250px;
+    }
+}
+
+@media (max-width: $tabletM) {
+    .intro {
+        min-height: 1000px;
+    }
+
+    .intro__inner {
+        padding-top: 250px;
+    }
+
+    .intro__form {
+        display: block;
+    }
+
+    .form__select {
+        select {
+            width: 300px;
+        }
+        .font-awesome-icon {
+            position: absolute;
+            top: 29%;
+            right: 30px;
+        }
+    }
+
+    input[type="email"] {
+        margin: 20px 0 0 0;
+
+        width: 257px;
+    }
+
+    .form__input {
+        .font-awesome-icon {
+            top: 45%;
+            left: 227px;
+        }
+    }
+
+    .intro__button {
+        margin: 20px 0 0 0;
+    }
+}
+
+@media (max-width: $mobileL) and (orientation: landscape) {
+    .intro {
+        height: 200vh;
+    }
+}
+
+@media (max-width: $mobileL) {
+    .intro__inner {
+        padding-top: 250px;
+    }
+
+    .intro__title {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: $mobileM) {
+    .intro__title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: $mobileS) {
+    .form__select {
+        select {
+            width: 200px;
+        }
+
+        .font-awesome-icon {
+            position: absolute;
+            top: 29%;
+            left: 160px;
+        }
+    }
+
+    input[type="email"] {
+        width: 175px;
+    }
+
+    .form__input {
+        .font-awesome-icon {
+            top: 45%;
+            left: 160px;
+        }
+    }
+
+    .intro__title {
+        font-size: 30px;
+    }
+}

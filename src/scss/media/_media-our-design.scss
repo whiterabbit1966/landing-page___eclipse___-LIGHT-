@@ -1,0 +1,36 @@
+@media (max-width: $laptor) {
+    .our-design__inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-design__inner--dev {
+        display: none;
+    }
+
+    .our-design__inner--business {
+        display: none;
+    }
+
+    .our-design__inner--arts {
+        display: none;
+    }
+
+    .our-design__item {
+        margin: 90px auto 0;
+    }
+
+    .our-design__item--top {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: $mobileL) {
+    .design__title {
+        font-size: 25px;
+    }
+
+    .our-design__filter {
+        flex-direction: column;
+    }
+}

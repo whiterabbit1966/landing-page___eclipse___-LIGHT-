@@ -1,0 +1,25 @@
+@media (max-width: $tabletM) {
+    .footer__column-two {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: $mobileL) {
+    .footer__inner {
+        display: block;
+    }
+
+    .footer__rights {
+        width: 200px;
+    }
+
+    .footer__column-two {
+        margin: 15px 0 0;
+    }
+}
+
+@media (max-width: $mobileS) {
+    .footer__rights {
+        width: 150px;
+    }
+}

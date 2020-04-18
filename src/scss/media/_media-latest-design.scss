@@ -1,0 +1,25 @@
+@media (max-width: $tabletM) {
+    .latest-design__header {
+        width: 580px;
+    }
+
+    .latest-design__title {
+        font-size: 35px;
+    }
+
+    .latest-design__subtitle {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: $mobileL) {
+    .latest-design__title {
+        font-size: 29px;
+    }
+}
+
+@media (max-width: $mobileS) {
+    .latest-design__title {
+        font-size: 24px;
+    }
+}

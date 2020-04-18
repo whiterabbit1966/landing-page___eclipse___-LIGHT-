@@ -1,0 +1,253 @@
+/* intro.css */
+.intro {
+    position: relative;
+
+    background: url("img/intro/intro-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.intro__inner {
+    position: relative;
+    padding-top: 334px;
+    width: 515px;
+
+    color: #fff;
+}
+
+.intro__title {
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.intro__subtitle {
+    display: block;
+    padding-top: 41px;
+
+    font-family: "Gotham Pro Medium", sans-serif;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.intro__form {
+    display: flex;
+
+    padding-top: 26px;
+}
+
+.intro__form {
+    select {
+        outline-color: #27c5c3;
+        appearance: none;
+        border: none;
+        border-radius: 3px;
+
+        width: 282px;
+        height: 60px;
+        padding-left: 25px;
+
+        font-family: "Montserrat Regular", sans-serif;
+        font-weight: 100;
+        color: #474747;
+        font-size: 14px;
+    }
+}
+
+.intro__form input::placeholder {
+    color: #474747;
+    font-size: 14px;
+}
+
+.form__select {
+    position: relative;
+    width: 282px;
+}
+
+.form__select {
+    cursor: pointer;
+    .font-awesome-icon {
+        position: absolute;
+        top: 29%;
+        right: 30px;
+
+        font-size: 25px;
+        color: #27c5c3;
+    }
+}
+
+.form__input {
+    position: relative;
+}
+
+input[type="email"] {
+    border: none;
+    outline-color: #27c5c3;
+
+    border-radius: 3px;
+
+    margin-left: 17px;
+    width: 282px;
+    height: 60px;
+    padding-left: 25px;
+
+    font-family: "Montserrat Regular", sans-serif;
+    font-weight: 400;
+    color: #474747;
+    font-size: 14px;
+}
+
+.form__input {
+    .font-awesome-icon {
+        position: absolute;
+        top: 30%;
+        right: 30px;
+
+        font-size: 25px;
+        color: #27c5c3;
+    }
+}
+
+.intro__button {
+    border: none;
+    border-radius: 5px;
+
+    background: #28c8c6;
+    color: #fff;
+    font-size: 25px;
+
+    cursor: pointer;
+
+    margin-left: 16px;
+    width: 64px;
+    height: 60px;
+}
+
+.intro__arrow-down {
+    position: absolute;
+    right: 0;
+    bottom: -65px;
+    left: 0;
+    z-index: 0;
+    margin: 0 auto;
+    padding: 41px;
+    width: 114px;
+    height: 114px;
+    text-align: center;
+
+    outline: none;
+    border: none;
+
+    border-radius: 50%;
+
+    background: #f5f7f9;
+
+    font-size: 33px;
+    color: #96a5b4;
+}
+
+.intro__button-contact {
+    position: absolute;
+    right: -62px;
+    bottom: -30px;
+
+    transform: rotate(-90deg);
+
+    padding: 23px 49px;
+    border-radius: 5px 5px 0px 0px;
+
+    font-family: "Gotham Pro Bold", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background: #8500d2;
+}
+
+/* Modal wondow registration */
+.intro__modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+
+    // transform: translateY(-700px);
+    padding-top: 50px;
+    display: none;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    background: #27c5c3;
+    margin: 0 auto;
+    text-align: center;
+
+    font-family: "Gotham Pro Bold", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #8500d2;
+
+    animation: intro__modal 1s linear forwards;
+    @keyframes intro__modal {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            top: 500px;
+            opacity: 1;
+        }
+    }
+}
+
+.modal__form-registration {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    width: 200px;
+    input {
+        margin-top: 20px;
+        color: #8500d2;
+    }
+    input::placeholder {
+        color: #8500d2;
+    }
+}
+
+.modal__btn-registration {
+    padding: 20px 0;
+    margin-top: 20px;
+
+    outline: none;
+    border: none;
+
+    color: #8500d2;
+
+    cursor: pointer;
+}
+
+.intro__modal-close {
+    padding: 10px 40px;
+    margin-top: 20px;
+
+    outline: none;
+    border: none;
+
+    color: #8500d2;
+
+    cursor: pointer;
+}
+
+/******************** Modal window "_fixed.js" **************/
+.intro__modal--fixed {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
