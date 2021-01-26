@@ -2,7 +2,7 @@
 
 ## &#x1F4D8; About project
 
-### [You can check out the demo.](https://nikitababko.github.io/landing-page___eclipse/)
+### [You can check out the demo.](https://nikitababko.github.io/landing-page-eclipse/)
 
 ### Where and what is located (files, folders).
 
